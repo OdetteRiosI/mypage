@@ -10,7 +10,7 @@
   
   <!--<img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />-->
   <div class="navbar">
-  <a href="#">About Me</a>
+  <a href="#">About me</a>
   <a href="#">My CV</a>
   </div>
   <meta charset="UTF-8">
@@ -34,6 +34,32 @@
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #A349A4; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
 }
 
 
